@@ -1,12 +1,8 @@
-# Next.js + Tailwind CSS Example
+# My Website
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This webiste was built using [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. 
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+The website is deployed on [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) platform. 
 
 ## How to use
 
@@ -20,4 +16,11 @@ yarn create next-app --example with-tailwindcss with-tailwindcss-app
 pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
 ```
 
+
+## To Run the App
+
+Run the Next.js App using yarn:
+``` 
+yarn dev
+```
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
