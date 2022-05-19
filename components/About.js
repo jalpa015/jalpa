@@ -1,6 +1,5 @@
 import React from "react"
 import Image from "next/image"
-import profile from "../public/profile.jpeg"
 
 const About = () => {
     return (
@@ -25,7 +24,7 @@ const About = () => {
                         Hello, I am Jalpa.
                     </h1> */}
                     <h4 className="mb-1 font-mono text-4xl md:text-4xl dark:text-white">
-                        Hi, I'm <br className="block md:hidden" />
+                        Hi, I&apos;m <br className="block md:hidden" />
                         <span
                         className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent text-blue will-change-transform"
                         >
@@ -51,13 +50,13 @@ const About = () => {
                 </div>
                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
                     <Image
-                        src={profile}
+                        src="/profile.png"
                         alt="Profile"
                         priority={true}
                         className="rounded-full"
                         width={300}
                         height={300}
-                        placeholder="blur"
+                        // placeholder="blur"
                     />
                 </div>
             </div>

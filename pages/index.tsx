@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="space-y-14 lg:space-y-24">
       <Head>
-        <title>Jalpa's Website</title>
+        <title>Jalpa&apos;s Website</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
