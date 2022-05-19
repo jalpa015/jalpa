@@ -35,7 +35,7 @@ const About = () => {
                         className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"
                         ></span>
                     </h4>
-                    <div className="text-xl font-semibold md:text-2xl">developer by choice and reseacher for fun</div>
+                    <div className="text-xl font-semibold md:text-2xl">Software developer and ML Reseacher</div>
                     <div className="mt-6 text-gray-800 dark:text-white">
                         <p className="mb-4">
                             I am a reseacher and a developer at the University of Windsor, ON, Canada. 

@@ -3,9 +3,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "npm run download-webviewer",
+    "download-webviewer": "npx @pdftron/webviewer-downloader --webviewerLocation ./public/webviewer/lib"
   },
   "dependencies": {
+    "@pdftron/webviewer": "^8.5.0",
     "next": "^12.1.6",
     "next-themes": "^0.2.0",
     "react": "^17.0.2",

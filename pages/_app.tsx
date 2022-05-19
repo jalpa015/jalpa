@@ -3,8 +3,6 @@ import 'tailwindcss/tailwind.css'
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import { ThemeProvider } from 'next-themes'
-import ThemeSwitch from '../components/ThemeSwitch'
-import Experience from '../components/Experience';
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -15,7 +13,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Navigation/>
       {/* <ThemeSwitch />  */}
       <Component {...pageProps} />
-      {/* <Experience /> */}
       <Footer/>
       </ThemeProvider>
     </>

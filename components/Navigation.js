@@ -13,11 +13,29 @@ const Navigation = () => {
     return (
         <div className="sticky top-0 z-20 py-2 bg-white md:py-6 md:mb-6 dark:bg-black">
             <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
-                <Link href="/">
+                <div className="flex flex-col">
+                    <Link href="/">
+                        <a
+                            className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
+                        >
+                            Jalpa Patel
+                        </a>
+                    </Link>
+                </div>
+                <div className="space-x-8 ml-300 ">
+                    <Link href="/experience">
+                        <a
+                            className={" font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
+                        >
+                            Experience
+                        </a>
+                    </Link>
+                </div>
+                <Link href="/resume">
                     <a
                         className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
                     >
-                        Jalpa Patel
+                        Resume
                     </a>
                 </Link>
                 <button
