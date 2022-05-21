@@ -24,3 +24,11 @@ Run the Next.js App using yarn:
 yarn dev
 ```
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+
+## To configure App with Lint
+
+The following command can be used to run ESLint analysis on the project:
+```
+yarn lint
+```
