@@ -6,7 +6,7 @@ export default class Skills extends React.Component {
     render() {
         const skillImgs = [
             {
-                name: 'Front-ends',
+                name: 'Front-end',
                 list: [
                     { name: 'html5', color: '#f16529', value: '75' },
                     { name: 'css3', color: '#29a9df', value: '70' },
@@ -20,7 +20,7 @@ export default class Skills extends React.Component {
                 ]
             },
             {
-                name: 'Back-ends',
+                name: 'Back-end',
                 list: [
                     { name: 'php', color: '#8993be', value: '70' },           
                     { name: 'nodejs', color: '#81ca2a', value: '70' },
@@ -29,14 +29,14 @@ export default class Skills extends React.Component {
                 ]
             },
             {
-                name: 'Databases',
+                name: 'Database',
                 list: [
                     { name: 'mysql', color: '#0784af', value: '65' },
                     { name: 'firebase', color: '#ffcb2c', value: '55' }
                 ]
             },
             {
-                name: 'Tools',
+                name: 'Technology',
                 list: [
                     { name: 'git', color: '#F05032', value: '60' },
                     { name: 'yarn', color: '#2c8ebb', value: '40' },

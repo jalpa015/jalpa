@@ -6,7 +6,7 @@ export default function Home() {
     <div className="space-y-14 lg:space-y-24">
       <Head>
         <title>Jalpa&apos;s Website</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favion.ico" />
       </Head>
 
       <main className="max-w-4xl mx-auto mt-16 antialiased">

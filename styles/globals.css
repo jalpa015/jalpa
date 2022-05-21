@@ -1682,8 +1682,7 @@ print {
       width: 8.33333%
   }
 
-  .column.is-offset-1,
-  .column.is-offset-1-tablet {
+  .column.is-offset-1 {
       margin-left: 8.33333%
   }
 
@@ -1796,7 +1795,7 @@ print {
       -webkit-box-flex: 0;
       -ms-flex: none;
       flex: none;
-      width: 83.33333%
+      width: 90%
   }
 
   .column.is-offset-10,
@@ -2119,10 +2118,10 @@ print {
       flex: none;
       width: 16.66667%
   }
-
+/* 
   .column.is-offset-2-desktop {
       margin-left: 16.66667%
-  }
+  } */
 
   .column.is-3-desktop {
       -webkit-box-flex: 0;
@@ -2183,7 +2182,7 @@ print {
       -webkit-box-flex: 0;
       -ms-flex: none;
       flex: none;
-      width: 66.66667%
+      /* width: 66.66667% */
   }
 
   .column.is-offset-8-desktop {

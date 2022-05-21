@@ -1,12 +1,18 @@
 import 'tailwindcss/tailwind.css';
-import { ThemeProvider } from 'next-themes'
+import Head from 'next/head';
 import Skills from '../components/Skills';
 
 export default function experience() {
   return (
-    <ThemeProvider attribute="class" enableSystem={false}>
-      {/* <ThemeSwitch />  */}
-      <Skills />
-      </ThemeProvider>
+    <div className="space-y-14 lg:space-y-24">
+        <Head>
+            <title>Jalpa Patel | Skills</title>
+            <link rel="icon" href="/favion.ico" />
+        </Head>
+
+        <main className="max-w-4xl mx-auto mt-16 antialiased">
+            <Skills />
+        </main>
+    </div>
   );
 }
