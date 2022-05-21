@@ -16,6 +16,7 @@ export default class SkillItem extends React.Component {
                     <style jsx>{`
                         img {
                             margin-top: 30px;
+                            margin-left: 30px;
                             display: flex;
                             position: relative;
                             max-width: 60px;
