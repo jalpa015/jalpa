@@ -36,7 +36,7 @@ export default class Skills extends React.Component {
                 list: [
                     { name: 'spring', color: '#69be4f', value: '70' },           
                     { name: 'maven', color: '#bc063d', value: '70' },
-                    { name: 'pyTorch', color: '#c54730', value: '70' },
+                    { name: 'pytorch', color: '#c54730', value: '70' },
                     { name: 'tensorflow', color: '#ffa332', value: '60' },
                     { name: 'keras', color: '#e00000', value: '60' },
                 ]
