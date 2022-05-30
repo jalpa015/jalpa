@@ -4,7 +4,7 @@ export default class SkillItem extends React.Component {
     render() {
         let { img, color, value } = this.props
         return (
-            <div className="column is-2-desktop has-text-center text-center" style={{'display': 'flex'}}>
+            <div className="font-mono column is-2-desktop has-text-center text-center" style={{'display': 'flex'}}>
                 <div className={'circle c100 pl-' + value + ' dark orange'}>
                     <span>
                         <img src={img} alt=""/>

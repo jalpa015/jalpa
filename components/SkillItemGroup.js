@@ -7,7 +7,7 @@ export default class Skills extends React.Component {
         return (
             <div className="columns">
                 <div className="column is-8-desktop is-offset-2-desktop is-10-tablet is-offset-1-tablet has-text-left">
-                    <h4 className='text-black dark:text-white'>{name}</h4>
+                    <h4 className='font-mono text-black dark:text-white'>{name}</h4>
                     <div className="columns is-gapless is-multiline">
                     {
                         items.map((item, key) => 

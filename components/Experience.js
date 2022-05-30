@@ -40,7 +40,7 @@ export default function Experience() {
 
 const ExperienceCard = ({title, desc, year, company }) => {
   return (
-    <div className="font-serif relative experience-card border p-4 rounded-md shadow-xl z-10 mx-4">
+    <div className="font-mono relative experience-card border p-4 rounded-md shadow-xl z-10 mx-4">
       {/* <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-700 font-bold dark:text-gray-800"> */}
       <h1 className="pb-3 md:-left-10 text-4xl text-gray-700 font-bold dark:text-white">
         {title}

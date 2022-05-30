@@ -23,15 +23,25 @@ const About = () => {
                     <div className="text-xl font-semibold md:text-2xl">Software developer and ML Reseacher</div>
                     <div className="mt-6 text-gray-800 dark:text-white">
                         <p className="mb-4">
-                            I am a reseacher and a developer at the University of Windsor, ON, Canada. 
-                            I am an experienced Software Developer. I developed mobile applications and also worked closely on developing customized CRM features.
-                            I am skilled in Python, Java, C, Spring MVC, Hybrid Mobile App Development, AngularJS, IoT, MySQL. 
+                            I am a researcher and a developer at the University of Windsor, ON, Canada. I am an experienced Software Developer. 
+                            During my work experience, I have developed mobile applications and worked closely on developing customized CRM features using AngularJS, 
+                            Spring MVC architecture and Java programming. I have worked with Cordova to build Android and iOS mobile applications. 
+                            Over time, I have learned new technologies and frameworks like NextJS and TailWind. 
                         </p>
                         <p className="mb-4">
-                            I am also skilled in ReactJS, NextJS, NodeJS, ExpressJS, MongoDB, Firebase, AWS, Docker, Kubernetes, and more.
-                            I have experience in Machine Learning, Data Science, and Artifical Intelligence.
+                            I am a researcher and a developer at the University of Windsor, ON, Canada. I am an experienced Software Developer. During my work experience, 
+                            I have developed mobile applications and worked closely on developing customized CRM features using AngularJS, Spring MVC architecture and Java programming. 
+                            I have worked with Cordova to build Android and iOS mobile applications. Over time, I have learned new technologies and frameworks like NextJS and TailWind. 
                         </p>
-                        
+                        <p className="mb-4">
+                            During my Master&apos;s degree, I have picked up Machine Learning and AI skills. I got the opportunity to learn and implement Data Visulaziations 
+                            and Modeling on varying datasets during my volunteer work experience at WinAIML. I also explored EDA and NLP techniques on Twitter and movie 
+                            datasets, to list a few. I learned various frameworks like Tensorflow and Keras during the research and deployed an ML model on AWS Cloud 
+                            instance and Google Cloud.
+                        </p>
+                        <p className="mb-4">
+                            Please reach out to me for a tech chat or to share experiences on my <a className="underline" href="mailto:pjalpa015@gmail.com"> email</a>.
+                        </p>
                     </div>
                 </div>
                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">

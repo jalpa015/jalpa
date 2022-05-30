@@ -17,15 +17,15 @@ export default function Projects() {
               <ProjectsCard
                 key={idx}
                 title={project.title}
-                // desc={exp.desc}
+                desc={project.desc}
                 // year={exp.year}
                 // company={exp.company}
                 projectLink={project.link}
               />
               {idx === userData.projects.length - 1 ? null : (
                 <div className="divider-container flex flex-col items-center -mt-2">
-                  <div className="w-4 h-4 bg-green-500 rounded-full relative z-10">
-                    <div className="w-4 h-4 bg-green-500 rounded-full relative z-10 animate-ping"></div>
+                  <div className="w-4 h-4 bg-yellow-500 rounded-full relative z-10">
+                    <div className="w-4 h-4 bg-yellow-500 rounded-full relative z-10 animate-ping"></div>
                   </div>
                   <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
                 </div>
@@ -40,7 +40,7 @@ export default function Projects() {
 
 const ProjectsCard = ({title, desc, year, projectLink }) => {
   return (
-    <div className="font-serif relative experience-card border p-4 rounded-md shadow-xl z-10 mx-4">
+    <div className="font-mono relative experience-card border p-4 rounded-md shadow-xl z-10 mx-4">
       {/* <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-700 font-bold dark:text-gray-800"> */}
       <h1 className="pb-3 md:-left-10 text-4xl text-gray-700 font-bold dark:text-white">
         <a href={projectLink} className="text-gray-500" target="_blank" rel="noreferrer">

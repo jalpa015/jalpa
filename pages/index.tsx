@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favion.ico" />
       </Head>
 
-      <main className="max-w-4xl mx-auto mt-16 antialiased">
+      <main className="max-w-7xl mx-auto mt-16 antialiased">
         <About/>
       </main>
     </div>

@@ -8,39 +8,44 @@ const userData = {
     address: "Toronto, ON, Canada.",
     projects: [
       {
+        title: "Revenue Forecast Prediction Using Graphs and Deep Learning",
+        link: "https://github.com/jalpa015/MovieSuccess",
+        desc: "Implemented bi-directional LSTM model for revenue prediction before release of movie. Generated Graph embedding to consider social connections of actors. Performed sentiment analysis on movie plots",
+      },
+      {
         title: "Resource Allocation Optimiztion using RL",
         link: "https://github.com/jalpa015/RL_Resource_Allocation",
-        imgUrl: "/tmk.jpg",
+        desc: "Optimized the allocation of resources on cloud computing system using a reinforcement learning algorithm. Reduced data loss during training of model to increase model efficiency using Python",
       },
       {
         title: "Malware Prediction on various devices",
         link: "https://github.com/jalpa015/DL_analysis_Malware_Prediction",
-        imgUrl: "/placeholdertech.png",
+        desc: "Classified malware-based applications using Autoencoders. Increased the efficiency of Autoencoders algorithm by comparing it to different Deep Learning models",
       },
       {
         title: "Social Media Content Analyst Tool",
         link: "https://github.com/jalpa015/NLP_Identify_informative_Tweets",
-        imgUrl: "/portfolio.png",
+        desc: "Designed a system to identify reliable tweets on microblogging websites like Twitter. Used Social Network Analysis to find groups of Informative Tweets and used State of Art models",
       },
       {
         title: "Missionaries and Cannibal Problem",
         link: "https://github.com/jalpa015/missionaries-cannibal-problem",
-        imgUrl: "/covidrescue.png",
+        desc: "Compared various AI search technique algorithms to solve the Missionaries and Cannibal Problem. Analyzed time and space complexity for implemented algorithms using Object-Oriented concepts ",
       },
       {
         title: "Power Spy",
         link: "",
-        imgUrl: "/algochurn.png",
+        desc: "Designed IoT project to record electricity consumption trends to identify faulty appliances. Developed a mobile application to view the results recorded from sensors ",
       },
       {
         title: "JASS - Android application",
         link: "https://github.com/jalpa015/Music-By-Lyrics",
-        imgUrl: "/playground.png",
+        desc: "Designed and developed a native Android Application that helps users to search songs by searching any phrase from the lyric of the song. Developed the problem-solving application to include speech and text input from an offline music playlist s ",
       },
       {
         title: "Email Classification",
         link: "https://github.com/jalpa015/email-spam-detection-using-keras",
-        imgUrl: "/feedmeback.png",
+        desc: "Classified Emails into Span and not spam categories using ML models. Did a comparison study of Neural Network and Random Forest models",
       },
     ],
     about: {
@@ -57,54 +62,39 @@ const userData = {
         title: "Graduate Assistant and Tutor",
         company: "University of Windsor",
         year: "Jan 2020 - Present",
-        // companyLink: "https://mroads.com",
         desc: "Lead assistant for Relational Database, Advanced Systems Programming, Computer Architecture and Theoretical Foundations of Computer Science. Tutored Design and Analysis of Algorithms course for concepts of Dynamic Programming, Graph Algorithms, Searching and Sorting and Complexity Analysis. Instructed in writing optimal code to address problem-solving, time and space complexity. Automated the task of loading the student submissions on local machine using Python scripts",
       },
       {
         title: "Open-Source Developer",
         company: "Pathways Education",
         year: "2021",
-        // companyLink: "https://upes.co.in",
         desc: "Worked on developing a platform for Open-Source developers to contribute. Conducted relevant market-scan and checked the relevant software development guidelines.",
       },
       {
         title: "Machine Learning Researcher",
         company: "WinAIML",
         year: "2020",
-        // companyLink: "https://upes.co.in",
         desc: "Worked on Machine Learning tasks involving Exploratory Data Analysis(EDA) and NLP. Contributed by preparing and maintaining datasets for the research project. Developed baseline Machine Learning Models to compare with the proposed research model and documented the findings.",
       },
       {
         title: "IT/Software Developer- Coop",
         company: "Ground Effects Ltd.",
         year: "2020",
-        // companyLink: "https://tailwindmasterkit.com",
         desc: "Reduced web page loading time by 20% by optimizing data loading and management from MySQL Relational Database. Optimized MySQL database queries, stored procedures, and the efficiency of SQL Server Reporting Services. Worked on report customizations and writing custom multi-select dropdown driver using Node.js",
       },
       {
         title: "Software Engineer",
         company: "IESOFT Technologies Pvt. Ltd.",
         year: "2019",
-        // companyLink: "https://algochurn.com",
         desc: "Handled customers, orders, and inventory data on a scalable database system on different servers. Implemented agent route tracking system, which accelerated business growth by 15. Simplified the use of CRM System by developing elastic search and CRON job APIs.",
       },
       {
         title: "Intern (Software Developer)",
         company: "Technolexis Pvt. Ltd.",
         year: "2019",
-        // companyLink: "https://intel.com",
         desc: "Worked on photogrammetry and IoT project to create a 3D Body Scanner. Programmed to save the results from the sensors and hardware devices to meet the project requirement. Achieved the target of creating a 3D printed model from photos by programming sockets and using Python.",
       },
-    ],
-    resumeUrl:
-      "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
-    socialLinks: {
-      instagram: "https://instagram.com/maninthere",
-      twitter: "https://twitter.com/mannupaaji",
-      linkedin: "https://linkedin.com/in/manuarora28",
-      github: "https://github.com/manuarora700",
-      facebook: "https://facebook.com/",
-    },
+    ]
   };
   
   export default userData;
