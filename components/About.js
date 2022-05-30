@@ -29,11 +29,6 @@ const About = () => {
                             Over time, I have learned new technologies and frameworks like NextJS and TailWind. 
                         </p>
                         <p className="mb-4">
-                            I am a researcher and a developer at the University of Windsor, ON, Canada. I am an experienced Software Developer. During my work experience, 
-                            I have developed mobile applications and worked closely on developing customized CRM features using AngularJS, Spring MVC architecture and Java programming. 
-                            I have worked with Cordova to build Android and iOS mobile applications. Over time, I have learned new technologies and frameworks like NextJS and TailWind. 
-                        </p>
-                        <p className="mb-4">
                             During my Master&apos;s degree, I have picked up Machine Learning and AI skills. I got the opportunity to learn and implement Data Visulaziations 
                             and Modeling on varying datasets during my volunteer work experience at WinAIML. I also explored EDA and NLP techniques on Twitter and movie 
                             datasets, to list a few. I learned various frameworks like Tensorflow and Keras during the research and deployed an ML model on AWS Cloud 
