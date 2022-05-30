@@ -16,7 +16,7 @@ export const Navigation = () => {
     const handleClick = () => {
         setActive(!active);
     };
-
+    setTheme('dark');
     return (
         <>
         < nav className="flex items-center flex-wrap p-3 sticky top-0 z-20 py-2 bg-black md:py-6 md:mb-6 dark:bg-black items-center justify-between">
