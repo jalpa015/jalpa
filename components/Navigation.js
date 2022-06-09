@@ -16,7 +16,7 @@ export const Navigation = () => {
     const handleClick = () => {
         setActive(!active);
     };
-    setTheme('dark');
+    // setTheme('dark');
     return (
         <>
         < nav className="flex items-center flex-wrap p-3 sticky top-0 z-20 py-2 bg-black md:py-6 md:mb-6 dark:bg-black items-center justify-between">
@@ -81,7 +81,7 @@ export const Navigation = () => {
                     aria-label="Toggle Dark Mode"
                     type="button"
                     className="w-8 h-8 px-1 ml-1 mr-1 rounded sm:ml-4 text-white hover:text-yellow-300"
-                    onClick={() => setTheme(theme === 'dark' || resolvedTheme === 'dark' ? 'light' : 'dark')}>
+                    onClick={() => setTheme(theme === 'light' || resolvedTheme === 'light' ? 'dark' : 'light')}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
@@ -116,4 +116,5 @@ export const Navigation = () => {
         </>
     );
 };
+Navigation.theme = 'dark'
 export default Navigation;

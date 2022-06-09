@@ -82,7 +82,7 @@ export default class Skills extends React.Component {
                         padding-top: 50px;
                         padding-bottom: 50px;
                         background-size: cover;
-                        color: #333333;
+                        color: #D3A3A3 !important;
                         font-size: 1.3em;
                     }
                 `}</style>

@@ -29,6 +29,11 @@ const About = () => {
                             Over time, I have learned new technologies and frameworks like NextJS and TailWind. 
                         </p>
                         <p className="mb-4">
+                        During my Co-op experience, I have closely worked with Relational Database(MySQL). 
+                        I have also had the opportunity to develop custom jQuery plugins for the inventory dashboard. 
+                        The experience also gave me exposure to writing stored procedures and reports for Microsoft SQL Server.  
+                        </p>
+                        <p className="mb-4">
                             During my Master&apos;s degree, I have picked up Machine Learning and AI skills. I got the opportunity to learn and implement Data Visulaziations 
                             and Modeling on varying datasets during my volunteer work experience at WinAIML. I also explored EDA and NLP techniques on Twitter and movie 
                             datasets, to list a few. I learned various frameworks like Tensorflow and Keras during the research and deployed an ML model on AWS Cloud 

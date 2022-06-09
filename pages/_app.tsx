@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <ThemeProvider attribute="class" enableSystem={true}>
+      <ThemeProvider forcedTheme={Component.theme || undefined} attribute="class" enableSystem={false}>
       <Navigation/>
       {/* <ThemeSwitch />  */}
       <Component {...pageProps} />
