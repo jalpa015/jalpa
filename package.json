@@ -5,8 +5,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint-fix": "next lint --fix",
-    "postinstall": "npm run download-webviewer"
+    "lint-fix": "next lint --fix"
   },
   "dependencies": {
     "@pdftron/webviewer": "^8.5.0",
