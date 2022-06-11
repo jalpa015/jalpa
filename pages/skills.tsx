@@ -10,7 +10,7 @@ export default function experience() {
             <link rel="icon" href="/favion.ico" />
         </Head>
 
-        <main className="max-w-7xl mx-auto mt-16 antialiased">
+        <main className="max-w-7xl mx-auto antialiased">
             <Skills />
         </main>
     </div>

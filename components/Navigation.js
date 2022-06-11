@@ -18,7 +18,6 @@ export const Navigation = () => {
     };
     setTheme('dark');
     return (
-        <>
         < nav className="flex items-center flex-wrap p-3 sticky top-0 z-20 py-2 bg-black md:py-6 md:mb-6 dark:bg-black items-center justify-between">
             <Link href="/">
             <a className="inline-flex items-center p-2 mr-4 ">
@@ -113,7 +112,6 @@ export const Navigation = () => {
                 </button>
             </div>
         </nav>
-        </>
     );
 };
 export default Navigation;

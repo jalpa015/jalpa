@@ -21,7 +21,7 @@ const About = () => {
                         ></span>
                     </h4>
                     <div className="text-xl font-semibold md:text-2xl">Software developer and ML Reseacher</div>
-                    <div className="mt-6 text-gray-800 dark:text-white">
+                    <div className="mt-6 text-gray-800 dark:text-white text-justify">
                         <p className="mb-4">
                             I am a researcher and a developer at the University of Windsor, ON, Canada. I am an experienced Software Developer. 
                             During my work experience, I have developed mobile applications and worked closely on developing customized CRM features using AngularJS, 

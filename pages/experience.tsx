@@ -11,7 +11,7 @@ export default function experience() {
                 <link rel="icon" href="/favion.ico" />
             </Head>
 
-            <main className="max-w-4xl mx-auto mt-16 antialiased">
+            <main className="max-w-4xl mx-auto antialiased">
                 <Experience />
             </main>
         </div>

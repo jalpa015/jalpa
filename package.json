@@ -4,7 +4,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --fix",
+    "lint": "next lint",
+    "lint-fix": "next lint --fix",
     "postinstall": "npm run download-webviewer",
     "download-webviewer": "npx @pdftron/webviewer-downloader --webviewerLocation ./public/webviewer/lib"
   },
