@@ -1,4 +1,4 @@
-# My Website
+# Portfolio Website
 
 This webiste was built using [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. 
 
