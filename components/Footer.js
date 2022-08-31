@@ -34,23 +34,23 @@ const Footer = () => {
                             Twitter
                         </a>
                         <a
-                            href="#"
+                            href="https://medium.com/@pjalpa015"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
                             Medium
                         </a>
-                        <a
+                        {/* <a
                             href="#"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
                             DEV
-                        </a>
+                        </a> */}
                         <a
-                            href="#"
+                            href="https://devjalpa.hashnode.dev/"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
