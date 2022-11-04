@@ -1,47 +1,46 @@
-import React from "react";
+import React from 'react'
 
 const Footer = () => {
-    return (
-        <div className="mt-12 lg:mt-18 sm:pb-30 sm:py-12 py-6">
-            <div className="max-w-7xl px-4 mx-auto text-gray-800 dark:text-white">
-                <div className="pb-8 mb-2 border-t-2 border-gray-300 dark:border-white-300"></div>
-                <div className="flex flex-col justify-between lg:flex-row items-center">
-                    <p>Built with Next.js, Tailwind and Vercel</p>
-                    <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
-                        
-                        <a
-                            href="https://www.linkedin.com/in/pjalpa015/"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            LinkedIn
-                        </a>
-                        <a
-                            href="https://github.com/jalpa015"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            GitHub
-                        </a>
-                        <a
-                            href="https://twitter.com/jalpa_015"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Twitter
-                        </a>
-                        <a
-                            href="https://medium.com/@pjalpa015"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Medium
-                        </a>
-                        {/* <a
+  return (
+    <div className="lg:mt-18 sm:pb-30 bg-cream py-6 dark:bg-black dark:bg-opacity-5 sm:py-12">
+      <div className="text-gray-800 mx-auto max-w-7xl px-4 dark:text-white">
+        <div className="mb-2 border-t-2 border-black border-opacity-20 pb-8 dark:border-white"></div>
+        <div className="flex flex-col items-center justify-between lg:flex-row">
+          <p>Built with Next.js, Tailwind and Vercel</p>
+          <div className="flex flex-wrap space-x-2 pt-2 font-medium sm:space-x-4 lg:pt-0">
+            <a
+              href="https://www.linkedin.com/in/pjalpa015/"
+              className={'hover:text-yellow-500 transition-colors'}
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/jalpa015"
+              className={'hover:text-yellow-500 transition-colors'}
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://twitter.com/jalpa_015"
+              className={'hover:text-yellow-500 transition-colors'}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Twitter
+            </a>
+            <a
+              href="https://medium.com/@pjalpa015"
+              className={'hover:text-yellow-500 transition-colors'}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Medium
+            </a>
+            {/* <a
                             href="#"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
@@ -49,19 +48,19 @@ const Footer = () => {
                         >
                             DEV
                         </a> */}
-                        <a
-                            href="https://devjalpa.hashnode.dev/"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Hashnode
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <a
+              href="https://devjalpa.hashnode.dev/"
+              className={'hover:text-yellow-500 transition-colors'}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Hashnode
+            </a>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
-export default Footer;
+export default Footer

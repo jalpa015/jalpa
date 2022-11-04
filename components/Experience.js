@@ -1,5 +1,5 @@
-import userData from "../constants/data";
-import React from "react";
+import userData from '../constants/data'
+import React from 'react'
 
 export default function Experience() {
   return (
@@ -10,7 +10,7 @@ export default function Experience() {
         </h1>
       </div> */}
       <div className=" -mt-4">
-        <div className="grid grid-cols-1 max-w-3xl mx-auto pt-20">
+        <div className="mx-auto grid max-w-3xl grid-cols-1 pt-20">
           {/* <h1>Experience</h1> */}
           {/* Experience card */}
           {userData.experience.map((exp, idx) => (
@@ -24,11 +24,11 @@ export default function Experience() {
                 companyLink={exp.companyLink}
               />
               {idx === userData.experience.length - 1 ? null : (
-                <div className="divider-container flex flex-col items-center -mt-2">
-                  <div className="w-4 h-4 bg-yellow-500 rounded-full relative z-10">
-                    <div className="w-4 h-4 bg-yellow-500 rounded-full relative z-10 animate-ping"></div>
+                <div className="divider-container -mt-2 flex flex-col items-center">
+                  <div className="relative z-10 h-4 w-4 rounded-full bg-peach">
+                    <div className="relative z-10 h-4 w-4 animate-ping rounded-full bg-peach"></div>
                   </div>
-                  <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
+                  <div className="-mt-2 h-24 w-1 rounded-full bg-charcoal bg-opacity-80 dark:bg-white dark:bg-opacity-80"></div>
                 </div>
               )}
             </>
@@ -36,21 +36,19 @@ export default function Experience() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-const ExperienceCard = ({title, desc, year, company }) => {
+const ExperienceCard = ({ title, desc, year, company }) => {
   return (
-    <div className="font-mono relative experience-card border p-4 rounded-md shadow-xl z-10 mx-4">
+    <div className="experience-card relative z-10 mx-4 rounded-md border p-4 font-mono shadow-xl">
       {/* <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-700 font-bold dark:text-gray-800"> */}
-      <h1 className="pb-3 md:-left-10 text-3xl text-gray-700 font-bold dark:text-white">
+      <h1 className="text-gray-700 pb-3 text-3xl font-bold dark:text-white md:-left-10">
         {title}
       </h1>
-      <h1 className="font-semibold text-xl pb-3">{company}</h1>
-      <h1 className="font-semibold text-xl pb-3">
-        {year}
-      </h1>
+      <h1 className="pb-3 text-xl font-semibold">{company}</h1>
+      <h1 className="pb-3 text-xl font-semibold">{year}</h1>
       <p className="text-gray-600 dark:text-gray-400 my-2 text-lg ">{desc}</p>
     </div>
-  );
-};
+  )
+}

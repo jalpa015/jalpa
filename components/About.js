@@ -11,15 +11,15 @@ const About = () => {
                     </h1> */}
           <h4 className="mb-1 font-mono text-4xl dark:text-white md:text-4xl">
             Hi, I&apos;m <br className="block md:hidden" />
-            <span className="text-brand-accent text-blue inline-flex h-20 animate-type overflow-x-hidden whitespace-nowrap pt-2 will-change-transform group-hover:animate-type-reverse">
+            <span className="text-brand-accent inline-flex h-20 animate-type overflow-x-hidden whitespace-nowrap pt-2 text-charcoal will-change-transform group-hover:animate-type-reverse dark:text-white">
               Jalpa Patel 👋
             </span>
-            <span className="ml-2 -mb-2 box-border inline-block h-10 w-1 animate-cursor bg-white will-change-transform md:-mb-4 md:h-16"></span>
+            <span className="ml-2 -mb-2 box-border inline-block h-10 w-1 animate-cursor bg-charcoal duration-1000 dark:bg-white md:-mb-4 md:h-16"></span>
           </h4>
-          <div className="text-xl font-semibold md:text-2xl">
+          <div className="text-xl font-semibold text-charcoal dark:text-white md:text-2xl">
             Software developer and ML Reseacher
           </div>
-          <div className="mt-6 text-gray-800 dark:text-white">
+          <div className="mt-6 text-charcoal dark:text-white">
             <p className="mb-4">
               I am a researcher and a developer at the University of Windsor,
               ON, Canada. I am an experienced Software Developer. During my work
