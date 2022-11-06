@@ -26,7 +26,7 @@ export const Navigation = () => {
         </a>
       </Link>
       <button
-        className=" hover:text-yellow-300 ml-auto inline-flex rounded p-3 text-white outline-none lg:hidden"
+        className=" hover:text-yellow-300 ml-auto inline-flex rounded p-3 dark:text-white outline-none lg:hidden"
         onClick={handleClick}
       >
         <svg
